@@ -14,7 +14,7 @@ function App(): JSX.Element {
       <Routes>
         <Route index element={<MainPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/full-project/:name" element={<FullProjectPage />} />
+        <Route path="/full-project/:key" element={<FullProjectPage />} />
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/contact-me" element={<ContactPage/>}/>
       </Routes>
