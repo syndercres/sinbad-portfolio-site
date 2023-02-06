@@ -1,5 +1,6 @@
 
 import skate from "../images/skate.png"
+import "../component-styles/AboutMe.css"
 
 export default function AboutMe():JSX.Element {
     return(
