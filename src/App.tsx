@@ -6,6 +6,8 @@ import FullProjectPage from "./components/FullProjectPage";
 import MainPage from "./components/MainPage";
 import NavBar from "./components/NavBar";
 import ProjectsPage from "./components/ProjectsPage";
+import "./App.css"
+
 function App(): JSX.Element {
   return (
     <div>
