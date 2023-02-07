@@ -7,8 +7,12 @@ export default function FullProjectPage():JSX.Element{
     if(key){
     return(
         <div>
-            <h1>full project FullProjectPage</h1>
-            <p>{projectList[Number(key)].name}</p>
+            <h1>{projectList[Number(key)].name}</h1>
+            <p>{projectList[Number(key)].info}</p>
+            <ul>
+                <li><a href={projectList[Number(key)].siteLink}> Visit the site</a></li>
+                <li><a href={projectList[Number(key)].gitHubLink}>Look at the code </a></li>
+            </ul>
         </div>
     )}else{
         return <h1> error oh no </h1>
