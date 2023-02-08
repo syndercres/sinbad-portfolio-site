@@ -1,23 +1,33 @@
 .nav-body{
     display: flex;
-    background-color: aquamarine;
+    background-color: #7ED5EA;
     border-radius: 15px;
 }
 
 .title{
-
+    color: #150734;
  
-    margin: 2%;
+    margin: 20px
 }
 
 .nav-buttons{
    
     display: flex;
-    margin: 2%;
-
+    margin: 20px;
+  
 }
 
 button{
-    background-color: aquamarine;
-    margin: 2%;
+    background-color: #4B9FE1;
+    color: #150734;
+    height: 30px;
+    border-radius: 15px;
+}
+.icon-img{
+    height: 40px;
+    margin: 10px;
+}
+.nav-icons{
+    margin-left: auto;
+    margin-right: 10px;
 }
