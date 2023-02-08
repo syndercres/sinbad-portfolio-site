@@ -1,11 +1,31 @@
 .project-item{
     background-color:#41B3A3;
-    
+    border-radius: 15px;
+    padding:2%;
+    display: flex;
 }
 
 .project-container{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr;
     column-gap: 20px;
     row-gap: 20px;
+}
+
+.images{
+    background-color: aliceblue;
+}
+.image-1{
+    height: 60px;
+ 
+}
+.image-2{
+    height: 60px;
+}
+.image-3{
+    height: 60px;
+}
+
+.info-button{
+    float: right;
 }

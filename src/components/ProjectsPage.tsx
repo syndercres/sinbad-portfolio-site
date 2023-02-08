@@ -10,7 +10,8 @@ export default function ProjectsPage():JSX.Element{
                 {projectList.map((project)=> {return(
                    <div className="project-item" key={project.name}> 
                     <h1>{project.name}</h1>
-                    <NavLink to={`/full-project/${project.id}`}><button>see more</button></NavLink>
+
+                    <NavLink className="info-button" to={`/full-project/${project.id}`}><button>see more</button></NavLink>
                     </div>
                 )})}
             </div>

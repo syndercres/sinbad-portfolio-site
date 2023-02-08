@@ -1,0 +1,23 @@
+.nav-body{
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+
+.title{
+
+ 
+    margin: 2%;
+}
+
+.nav-buttons{
+   
+    display: flex;
+    margin: 2%;
+
+}
+
+button{
+    background-color: aquamarine;
+    margin: 2%;
+}

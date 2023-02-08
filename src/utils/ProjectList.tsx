@@ -1,4 +1,5 @@
-
+import FSFphoto1 from "../images/FSF-photo1.png"
+import FSFphoto2 from "../images/FSF-photo2.png"
 
 export interface IProject {
     id:number,
@@ -7,6 +8,46 @@ export interface IProject {
     gitHubLink: string,
     info: string
 }
+
+export interface Iphoto {
+    id:number,
+    photo1:string,
+    photo2:string,
+    photo3:string,
+}
+
+export const photoList: Iphoto[] = [
+    {
+        id:0,
+        photo1:FSFphoto1,
+        photo2:FSFphoto2,
+        photo3:"",
+    },
+    {
+        id:1,
+        photo1:"",
+        photo2:"",
+        photo3:"",
+    },
+    {
+        id:2,
+        photo1:"",
+        photo2:"",
+        photo3:"",
+    },
+    {
+        id:3,
+        photo1:"",
+        photo2:"",
+        photo3:"",
+    },
+    {
+        id:4,
+        photo1:"",
+        photo2:"",
+        photo3:"",
+    }
+]
 
 export const projectList: IProject [] = [
     {
