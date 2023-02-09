@@ -1,5 +1,10 @@
 // import FSFphoto1 from "../images/FSF-photo1.png";
 // import FSFphoto2 from "../images/FSF-photo2.png";
+import TV from "../images/clipart55134.png";
+import PasteIcon from "../images/clipart4163671.png";
+import FSFIcon from "../images/education-png-6.png";
+import bones from "../images/bones.png";
+import surfIcon from "../images/Untitled-68 01 Artboard 1.png";
 import skate from "../images/skate.png";
 import photo1 from "../images/IMG_0042.jpeg";
 import photo2 from "../images/IMG_0172.jpeg";
@@ -36,31 +41,31 @@ export const funPhotos: string[] = [
 export const photoList: Iphoto[] = [
   {
     id: 0,
-    photo1: "",
+    photo1: FSFIcon,
     photo2: "",
     photo3: "",
   },
   {
     id: 1,
-    photo1: "",
+    photo1: surfIcon,
     photo2: "",
     photo3: "",
   },
   {
     id: 2,
-    photo1: "",
+    photo1: bones,
     photo2: "",
     photo3: "",
   },
   {
     id: 3,
-    photo1: "",
+    photo1: PasteIcon,
     photo2: "",
     photo3: "",
   },
   {
     id: 4,
-    photo1: "",
+    photo1: TV,
     photo2: "",
     photo3: "",
   },

@@ -17,3 +17,10 @@
 .info-button {
   float: right;
 }
+.project-icon {
+  height: 80px;
+  margin-right: 20px;
+}
+.project-contents {
+  display: flex;
+}
