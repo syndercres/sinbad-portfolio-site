@@ -1,0 +1,14 @@
+.section {
+  background-color: #4b9fe1;
+  padding: 20px;
+}
+
+.section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.title{
+    margin: 10px;
+}

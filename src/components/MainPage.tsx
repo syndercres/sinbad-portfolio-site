@@ -1,12 +1,13 @@
-
+import "../component-styles/MainPage.css"
 export default function MainPage():JSX.Element{
 
     return(
         <div>
-        <h1>this is the main page</h1>
+        
         <div className="main-page-content">
-            <p>Hi, I'm Sinbad, this page is a showcase of my skills!</p>
-            <div className="software-section">
+            <h1 className="title">This page is a showcase of my skills!</h1>
+            <div className="section-container">
+            <div className="software section box">
                 <h2>Software Development</h2>
                 <h3>Languages:</h3>
                 <ul>
@@ -20,7 +21,7 @@ export default function MainPage():JSX.Element{
                     <li>Express</li>
                 </ul>
             </div>
-            <div className="EEE-section">
+            <div className="EEE section box">
                 <h2>Electrical engineering</h2>
                 <h3>Modules in:</h3>
                 <ul>
@@ -40,6 +41,7 @@ export default function MainPage():JSX.Element{
                     <li>Matlab</li>
                     <li>Simulink</li>
                 </ul>
+                </div>
             </div>
         </div>
         </div>

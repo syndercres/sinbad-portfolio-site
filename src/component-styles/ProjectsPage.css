@@ -1,21 +1,19 @@
-.project-item{
-    background-color:#4B9FE1;
-    border-radius: 15px;
-    padding:4%;
-    display: flex;
-    box-shadow: -5px -5px 10px rgba(126, 213, 234, 0.8),
+.project-item {
+  background-color: #4b9fe1;
+  border-radius: 15px;
+  padding: 4%;
+
+  box-shadow: -5px -5px 10px rgba(126, 213, 234, 0.8),
     5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.project-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-    row-gap: 40px;
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
 }
 
-
-
-.info-button{
-    float: right;
+.info-button {
+  float: right;
 }

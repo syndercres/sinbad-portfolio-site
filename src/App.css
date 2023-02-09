@@ -1,5 +1,11 @@
-body{
-    font-family: monospace;
-    background-image: linear-gradient( #7ED5EA, #63BCE5, #4B9FE1,#3778C2,#28559A,#0F2557,#150734);
-    color: #0F2557;
+body {
+  font-family: monospace;
+  /*background-image: linear-gradient( #7ED5EA, #63BCE5, #4B9FE1,#3778C2,#28559A,#0F2557,#150734);*/
+  color: #0f2557;
+}
+
+.box {
+  border-radius: 15px;
+  box-shadow: -5px -5px 10px rgba(250, 250, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.25);
 }
