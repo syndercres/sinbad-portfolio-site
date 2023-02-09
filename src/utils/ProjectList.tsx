@@ -1,12 +1,12 @@
 // import FSFphoto1 from "../images/FSF-photo1.png";
 // import FSFphoto2 from "../images/FSF-photo2.png";
 import skate from "../images/skate.png";
-import photo1 from "../images/IMG_0042.jpeg"
-import photo2 from "../images/IMG_0172.jpeg"
-import photo3 from "../images/IMG_4319.jpeg"
-import photo4 from "../images/2f8dc01d-668d-447b-8583-665025d3a3ce.jpeg"
-import photo5 from "../images/E318A100-5FEA-4763-842A-81293E325B34.jpeg"
-import photo6 from "../images/IMG_2774.jpeg"
+import photo1 from "../images/IMG_0042.jpeg";
+import photo2 from "../images/IMG_0172.jpeg";
+import photo3 from "../images/IMG_4319.jpeg";
+import photo4 from "../images/2f8dc01d-668d-447b-8583-665025d3a3ce.jpeg";
+import photo5 from "../images/E318A100-5FEA-4763-842A-81293E325B34.jpeg";
+import photo6 from "../images/IMG_2774.jpeg";
 
 export interface IProject {
   id: number;
@@ -23,11 +23,15 @@ export interface Iphoto {
   photo3: string;
 }
 
-export const funPhotos: string[] =
-[
-  skate, photo1,photo2,photo3,photo4,photo5,photo6
-]
-
+export const funPhotos: string[] = [
+  skate,
+  photo1,
+  photo2,
+  photo3,
+  photo4,
+  photo5,
+  photo6,
+];
 
 export const photoList: Iphoto[] = [
   {

@@ -1,4 +1,3 @@
-
 import "../component-styles/AboutMe.css";
 import { funPhotos } from "../utils/ProjectList";
 export default function AboutMe(): JSX.Element {
@@ -11,13 +10,17 @@ export default function AboutMe(): JSX.Element {
           Hi I'm Sinbad! I'm an Electrical Engineer, Software Developer and
           extreme sports enthusiast
         </p>
-  
       </div>
       <div className="photo-grid">
-        {funPhotos.map((photo)=>{
-          return(
-            <img className="photo-item box" key={photo} src={photo} alt={photo} />
-          )
+        {funPhotos.map((photo) => {
+          return (
+            <img
+              className="photo-item box"
+              key={photo}
+              src={photo}
+              alt={photo}
+            />
+          );
         })}
       </div>
     </div>

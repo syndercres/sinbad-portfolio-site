@@ -2,10 +2,10 @@ img {
   height: 400px;
 }
 
-.photo-grid{
- display: flexbox;
+.photo-grid {
+  display: flexbox;
 }
-.photo-item{
+.photo-item {
   max-height: 200px;
   margin: 20px;
 }
