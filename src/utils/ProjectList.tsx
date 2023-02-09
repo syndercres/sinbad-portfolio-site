@@ -1,5 +1,5 @@
-import FSFphoto1 from "../images/FSF-photo1.png";
-import FSFphoto2 from "../images/FSF-photo2.png";
+// import FSFphoto1 from "../images/FSF-photo1.png";
+// import FSFphoto2 from "../images/FSF-photo2.png";
 import skate from "../images/skate.png";
 import photo1 from "../images/IMG_0042.jpeg"
 import photo2 from "../images/IMG_0172.jpeg"
