@@ -1,6 +1,6 @@
 .nav-body {
   display: flex;
-  background-color: #71d7f0;
+  background-color: #d6e6eb;
   border-radius: 15px;
   box-shadow: -5px -5px 10px rgba(250, 250, 255, 0.8),
     5px 5px 10px rgba(0, 0, 0, 0.25);
@@ -18,7 +18,7 @@
 }
 
 button {
-  background-color: #7ed5ea;
+  background-color: #d6e6eb;
   color: #150734;
   height: 30px;
   margin-left: 10px;
