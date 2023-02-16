@@ -5,7 +5,7 @@ import "../component-styles/ProjectsPage.css";
 export default function ProjectsPage(): JSX.Element {
   return (
     <div className="project-page-body">
-      <h1>this is the projects page</h1>
+      <h1>  Here are some of my projects</h1>
       <div className="project-container">
         {projectList.map((project) => {
           return (
