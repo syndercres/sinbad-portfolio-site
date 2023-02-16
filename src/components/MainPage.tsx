@@ -1,6 +1,6 @@
 import "../component-styles/MainPage.css";
-import sofwareIcon from "../images/clipart1971121.png"
-import EEEIcon from "../images/kisspng-computer-icons-electronics-electronic-circuit-elec-technology-companies-5ae34440036a16.294151481524843584014.png"
+import sofwareIcon from "../images/clipart1971121.png";
+import EEEIcon from "../images/kisspng-computer-icons-electronics-electronic-circuit-elec-technology-companies-5ae34440036a16.294151481524843584014.png";
 export default function MainPage(): JSX.Element {
   return (
     <div>
@@ -9,14 +9,10 @@ export default function MainPage(): JSX.Element {
         <div className="section-container">
           <div className="software section box">
             <div className="section-title">
-            <h2>Software Development</h2>
-            <img
-                  className="section-icon"
-                  src={sofwareIcon}
-                  alt="icon"
-                />
+              <h2>Software Development</h2>
+              <img className="section-icon" src={sofwareIcon} alt="icon" />
             </div>
-            
+
             <h3>Languages:</h3>
             <ul>
               <li>Javascript</li>
@@ -27,7 +23,6 @@ export default function MainPage(): JSX.Element {
             <ul>
               <li>React</li>
               <li>Express</li>
-             
             </ul>
             <h3>Technologies:</h3>
             <ul>
@@ -39,13 +34,9 @@ export default function MainPage(): JSX.Element {
             </ul>
           </div>
           <div className="EEE section box">
-          <div className="section-title">
-            <h2>Electrical and Electronic Engineering</h2>
-            <img
-                  className="section-icon"
-                  src={EEEIcon}
-                  alt="icon"
-                />
+            <div className="section-title">
+              <h2>Electrical and Electronic Engineering</h2>
+              <img className="section-icon" src={EEEIcon} alt="icon" />
             </div>
             <h3>Areas of study:</h3>
             <ul>
