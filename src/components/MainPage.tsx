@@ -1,7 +1,7 @@
 import "../component-styles/MainPage.css";
 import sofwareIcon from "../images/clipart1971121.png";
-import skillsIcon from "../images/NicePng_skills-icon-png_3463078.png"
-import currentIcon from "../images/kisspng-computer-icons-portable-network-graphics-clip-art-intention-registration-svg-png-icon-free-download-5c800dc7ecd802.2350953415518960079701.png"
+import skillsIcon from "../images/NicePng_skills-icon-png_3463078.png";
+import currentIcon from "../images/kisspng-computer-icons-portable-network-graphics-clip-art-intention-registration-svg-png-icon-free-download-5c800dc7ecd802.2350953415518960079701.png";
 import EEEIcon from "../images/kisspng-computer-icons-electronics-electronic-circuit-elec-technology-companies-5ae34440036a16.294151481524843584014.png";
 export default function MainPage(): JSX.Element {
   return (
@@ -65,7 +65,7 @@ export default function MainPage(): JSX.Element {
             </ul>
           </div>
           <div className="skills section box">
-          <div className="section-title">
+            <div className="section-title">
               <h2>Skills and Qualifications</h2>
               <img className="section-icon" src={skillsIcon} alt="icon" />
             </div>
@@ -81,31 +81,34 @@ export default function MainPage(): JSX.Element {
             <ul>
               <li>Pre-U 2018: Maths D2 (A*), Physics D3 (A), English D3 (A)</li>
               <li>IGCSE 2017: Maths A*</li>
-              <li>IGCSE 2016: Maths A, English lit A*, French A*, German A, Physics A*, Chemistry A*, Biology A*, DT A</li>
+              <li>
+                IGCSE 2016: Maths A, English lit A*, French A*, German A,
+                Physics A*, Chemistry A*, Biology A*, DT A
+              </li>
               <li>GCSE 2016: Latin A*</li>
             </ul>
           </div>
           <div className="current section box">
-          <div className="section-title">
+            <div className="section-title">
               <h2>Current Projects</h2>
               <img className="section-icon" src={currentIcon} alt="icon" />
             </div>
             <h3>Skills I'm working on:</h3>
-              <ul>
-                <li>Learning Python (and PyTorch)</li>
-                <li>Machine learning theory</li>
-                <li>Consolodating my learning in C++</li>
-                <li>Using Socket.io and Ably for real time connection</li>
-                <li>Doing more testing with Cypress</li>
-                <li>Learning about AUTH with Firebase</li>
-              </ul>
-              <h3>Projects I'm working on:</h3>
-              <ul>
-                <li>Surfergram: still a work in progress</li>
-                <li>Weather App: A better way to check wind conditions</li>
-                <li>Basic machine learning projects with PyTorch</li>
-                <li>Implimenting google login in previous projects</li>
-              </ul>
+            <ul>
+              <li>Learning Python (and PyTorch)</li>
+              <li>Machine learning theory</li>
+              <li>Consolodating my learning in C++</li>
+              <li>Using Socket.io and Ably for real time connection</li>
+              <li>Doing more testing with Cypress</li>
+              <li>Learning about AUTH with Firebase</li>
+            </ul>
+            <h3>Projects I'm working on:</h3>
+            <ul>
+              <li>Surfergram: still a work in progress</li>
+              <li>Weather App: A better way to check wind conditions</li>
+              <li>Basic machine learning projects with PyTorch</li>
+              <li>Implimenting google login in previous projects</li>
+            </ul>
           </div>
         </div>
       </div>
