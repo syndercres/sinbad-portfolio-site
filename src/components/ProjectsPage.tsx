@@ -6,6 +6,7 @@ export default function ProjectsPage(): JSX.Element {
   return (
     <div className="project-page-body">
       <h1>  Here are some of my projects</h1>
+      <p>Due to being hosted on free server platfroms, some data might take a minute to load :)</p>
       <div className="project-container">
         {projectList.map((project) => {
           return (

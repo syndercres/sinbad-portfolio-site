@@ -12,3 +12,13 @@
 .title {
   margin: 10px;
 }
+
+.section-title{
+  display: flex;
+}
+
+.section-icon{
+  height: 80px;
+  margin-left: auto;
+  margin-right: 20px;
+}

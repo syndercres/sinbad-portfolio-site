@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import githubIcon from "../images/github-icon.png";
 import linkedinIcon from "../images/linkedin-icon.png";
+import codewarsIcon from "../images/pngwing.com.png"
 import "../component-styles/NavBar.css";
 
 export default function NavBar(): JSX.Element {
@@ -22,6 +23,9 @@ export default function NavBar(): JSX.Element {
         </NavLink>
       </div>
       <div className="nav-icons">
+      <a href="https://www.codewars.com/users/syndercres">
+          <img className="icon-img" src={codewarsIcon} alt="github icon" />
+        </a>
         <a href="https://github.com/syndercres">
           <img className="icon-img" src={githubIcon} alt="github icon" />
         </a>
