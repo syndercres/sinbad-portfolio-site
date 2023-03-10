@@ -8,7 +8,7 @@ export default function AboutMe(): JSX.Element {
       <div>
         <p>
           Hi I'm Sinbad! I'm an Electrical Engineer, Software Developer and
-          extreme sports enthusiast
+          extreme sports enthusiast.
         </p>
       </div>
       <div className="photo-grid">

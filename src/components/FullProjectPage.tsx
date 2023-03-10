@@ -9,15 +9,15 @@ export default function FullProjectPage(): JSX.Element {
       <div>
         <h1>{projectList[Number(key)].name}</h1>
         <p>{projectList[Number(key)].info}</p>
-        <ul>
-          <li>
-            <a href={projectList[Number(key)].siteLink}> Visit the site</a>
-          </li>
-          <li>
-            <a href={projectList[Number(key)].gitHubLink}>Look at the code </a>
-          </li>
-        </ul>
-
+        <div className="link-container">
+          <a href={projectList[Number(key)].siteLink}>
+            {" "}
+            <button>Visit the site</button>
+          </a>
+          <a href={projectList[Number(key)].gitHubLink}>
+            <button>Look at the code</button>{" "}
+          </a>
+        </div>
         <div className="images">
           {photoList[Number(key)].photo1 ? (
             <img
