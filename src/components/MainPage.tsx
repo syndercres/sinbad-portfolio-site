@@ -7,7 +7,7 @@ export default function MainPage(): JSX.Element {
   return (
     <div>
       <div className="main-page-content">
-        <h1 className="title">This page is a showcase of my skills!</h1>
+        <h1 className="title">   </h1>
         <div className="section-container">
           <div className="software section box">
             <div className="section-title">
@@ -19,6 +19,7 @@ export default function MainPage(): JSX.Element {
             <ul>
               <li>Javascript</li>
               <li>Typescript</li>
+              <li>CSS</li>
               <li>PostgreSQL</li>
             </ul>
             <h3>Frameworks:</h3>
@@ -71,7 +72,6 @@ export default function MainPage(): JSX.Element {
             </div>
             <h3>skills:</h3>
             <ul>
-              <li>Hard working</li>
               <li>Ingenuitive</li>
               <li>Creative</li>
               <li>Good team member</li>

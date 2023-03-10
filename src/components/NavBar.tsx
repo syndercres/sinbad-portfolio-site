@@ -16,7 +16,7 @@ export default function NavBar(): JSX.Element {
           <button> see my projects</button>
         </NavLink>
         <NavLink to="/about-me">
-          <button> learn about me </button>
+          <button> about me </button>
         </NavLink>
         <NavLink to="/contact-me">
           <button> contact me</button>
