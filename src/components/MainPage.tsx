@@ -7,7 +7,7 @@ export default function MainPage(): JSX.Element {
   return (
     <div>
       <div className="main-page-content">
-        <h1 className="title">   </h1>
+        <h1 className="title"> </h1>
         <div className="section-container">
           <div className="software section box">
             <div className="section-title">
